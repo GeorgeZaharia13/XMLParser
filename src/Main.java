@@ -17,7 +17,7 @@ public class Main {
 
         File xmlDocument = new File("dictionary");
         InputSource inputSource = new InputSource(new FileInputStream(xmlDocument));
-        InputStream inputStream = getClass().getClassLoader().getResourceAsStream("dictionary");
+        InputStream inputStream = Main.class.getClassLoader().getResourceAsStream("dictionary.xml");
 
         Object result = xPathExpression.evaluate(inputSource, XPathConstants.NODESET);
 
