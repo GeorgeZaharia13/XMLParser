@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<dictionary>
+
+<word>
+
+<english>day</english>
+
+<romanian>zi</romanian>
+
+
+</word>
+
+
+
+<word>
+
+<english>book</english>
+
+<franceza>livre</franceza>
+
+</word>
+
+
+
+<word>
+    
+<english>dog</english>
+
+<romanian>caine</romanian>
+
+</word>
+
+
+<word>
+    
+<english>bed</english>
+
+<romanian>pat</romanian>
+
+</word>
+
+</dictionary> 
