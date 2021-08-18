@@ -15,7 +15,7 @@ public class Main {
         XPath path = factory.newXPath();
         XPathExpression xPathExpression = path.compile("dictionary");
 
-        File xmlDocument = new File("dictionary");
+        File xmlDocument = new File("dictionary.xml");
         InputSource inputSource = new InputSource(new FileInputStream(xmlDocument));
         InputStream inputStream = Main.class.getClassLoader().getResourceAsStream("dictionary.xml");
 
